@@ -1,0 +1,37 @@
+body {
+    background-color: #4F3E37;
+
+
+}
+
+
+
+.titulo {
+    display: flex;
+    color: #E8D7CF;
+    
+    
+}
+
+.inicio {
+    background-color: #825540; 
+    padding: 20px;
+    border-radius: 20px;
+    
+}
+
+.menu { 
+    display: flex; 
+    color: #E8D7CF ;
+    font-size: 13px;
+    justify-content: flex-end; 
+    gap: 30px;
+
+}
+
+.menu:hover {
+    font-size: 13px;
+    color: #fa9160 ;
+
+
+}
