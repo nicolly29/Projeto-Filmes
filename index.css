@@ -1,37 +1,90 @@
 body {
     background-color: #4F3E37;
-
-
+    margin: 0;
 }
 
-
-
 .titulo {
-    display: flex;
+    margin: 0;
+    padding: 10px 30px;
+    
+}
+
+.titulo h1 {
+    font-size: 40px;
+    margin: 0;
     color: #E8D7CF;
-    
-    
+}
+
+header {
+    display: block;
+    padding: 10px 30px 20px;
 }
 
 .inicio {
+    width: 100%;
+    box-sizing: border-box;
     background-color: #825540; 
-    padding: 20px;
-    border-radius: 20px;
+    padding: 4px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
     
 }
 
 .menu { 
-    display: flex; 
-    color: #E8D7CF ;
+    display: flex;
+    color: #E8D7CF;
+    align-items: center;
     font-size: 13px;
-    justify-content: flex-end; 
     gap: 30px;
-
+}
+.menu p {
+    margin: 0;
 }
 
-.menu:hover {
-    font-size: 13px;
-    color: #fa9160 ;
+
+.menuPrincipal {
+    font-size: 20px;
+    color: #E8D7CF;
+  
+}
+.menuPrincipal p {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
 
 
+.catalogo {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.filme {
+    width: 200px;
+    text-align: center;
+    color: #E8D7CF;
+}
+
+.filme img {
+    width: 200px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 10px; }
+
+.filme h2 {
+    margin: 10px 0 5px;
+}
+
+.filme p {
+    margin: 3px 0;
 }
