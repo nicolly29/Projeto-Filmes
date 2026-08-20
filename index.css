@@ -54,6 +54,14 @@ header {
     margin: 0;
 }
 
+.p1:hover {
+    color: #9b9b9b;
+    font-size: 14px;
+    background-color: #E8D7CF;
+    border-radius: 11px;
+
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -67,6 +75,13 @@ header {
     gap: 25px;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+.catalogo:hover { */teste */
+    width: 205px;
+    text-align: center;
+    color: #686868;
+    border-radius: 10px;
 }
 
 .filme {
